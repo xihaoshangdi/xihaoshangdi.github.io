@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on xihaoshangdi的博客</title>
-    <link>http://xihaoshangdi.github.io/posts/</link>
+    <link>https://xihaoshangdi.github.io/posts/</link>
     <description>Recent content in Posts on xihaoshangdi的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 14 Sep 2019 21:44:14 +0800</lastBuildDate>
     
-	<atom:link href="http://xihaoshangdi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xihaoshangdi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git学习与总结</title>
-      <link>http://xihaoshangdi.github.io/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/</link>
+      <link>https://xihaoshangdi.github.io/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sat, 14 Sep 2019 21:44:14 +0800</pubDate>
       
-      <guid>http://xihaoshangdi.github.io/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://xihaoshangdi.github.io/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/</guid>
       <description> Git学习 git init 用 git init 在目录中创建新的 Git 仓库。 你可以在任何时候、任何目录中这么做，完全是本地化的。
 git add git add 命令可将该文件添加到缓存，但不提交。
 git add .命令来添加当前项目的所有文件。
@@ -31,10 +31,10 @@ git status -sb git branch -d x Git 远程仓库 SSH key </description>
     
     <item>
       <title>浅谈hugo搭建博客</title>
-      <link>http://xihaoshangdi.github.io/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://xihaoshangdi.github.io/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 14 Sep 2019 21:35:33 +0800</pubDate>
       
-      <guid>http://xihaoshangdi.github.io/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://xihaoshangdi.github.io/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>浅谈hugo搭建博客 花了足足三个小时，来搞这个博客，累的要死，终于算是大致搞明白了。还有很多不太明白的地方，就写一篇博客和大家分享
 初试Hugo  Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
  安装Hugo  前往官网下载Hugo。 解压Hugo，并将Hugo的解压目录引入环境变量的Path中。 通过hugo version命令测试是否引入成功。  建立一个站点，并添加默认主题  自定义一个空目录执行 hugo new site XXXXXXXX，X的位置可以用任意字符串替代。如果是要搭建在Github Page上。给出推荐的格式：&amp;lt;你的github名&amp;gt;.github.io-creator。 进入生成的目录 cd &amp;lt;你的github名&amp;gt;.github.io-creator。 将目录初始化为一个Git本地仓库git init。 下载默认的主题git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke。 将选择默认主题追加到配置文件echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml。  添加一些内容 通过hugo new posts/my-first-post.md生成你自己的第一篇文章。不推荐这样做，测试后发现会直接在主目录下新生成posts文件夹，而不是生成在content目录下。
