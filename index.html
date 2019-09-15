@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.58.2" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>xihaoshangdi的博客 | 一个学习前端的程序猿</title>
+    <meta property="og:title" content="xihaoshangdi的博客 | 一个学习前端的程序猿">
+    <meta property="og:type" content="website">
+    <meta name="Keywords" content="前端,博客,技术分享">
+    <meta name="description" content="专注于IT互联网，学习前端，和算法的程序猿。">
+    <meta property="og:url" content="http://example.org/">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml+xml" href="http://example.org/index.xml" title="xihaoshangdi的博客" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+
+
+    
+    
+</head>
+
+
+<body>
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <h1>
+                        <a id="logo" href="http://example.org/">
+                            xihaoshangdi的博客
+                        </a>
+                    </h1>
+                
+                <p class="description">一个学习前端的程序猿</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="http://example.org/">首页</a>
+                    
+                    <a  href="http://example.org/algorithm/" title="算法">算法</a>
+                    
+                    <a  href="http://example.org/archives/" title="归档">归档</a>
+                    
+                    <a  href="http://example.org/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div id="body">
+    <div class="container">
+        <div class="col-group">
+
+            <div class="col-8" id="main">
+                <div class="res-cons">
+                    
+                        <article class="post">
+                            <header>
+                                <h1 class="post-title">
+                                    <a href="http://example.org/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/" title="Git学习与总结" >Git学习与总结</a>
+                                </h1>
+                            </header>
+                            <date class="post-meta meta-date">
+                                2019年9月14日
+                            </date>
+                            
+                            <div class="post-content">
+                                 Git学习 git init 用 git init 在目录中创建新的 Git 仓库。 你可以在任何时候、任何目录中这么做，完全是本地化的。
+git add git add 命令可将该文件添加到缓存，但不提交。
+git add .命令来添加当前项目的所有文件。
+git status git status 命令用于查看项目的当前状态。
+.gitignore 如果在仓库中创建名为 .gitignore 的文件，Git 将使用它来确定在提交之前要忽略哪些文件和目录。
+git commit 使用 git add 命令将想要快照的内容写入缓存区， 而执行 git commit 将缓存区内容添加到仓库中。
+git commit -m 字符串
+git commit -v
+git log git reset &ndash;hard XXXXXX git reflog git branch x git branch git checkout x | master git merge x 在主分支进行合并
+git status -sb git branch -d x Git 远程仓库 SSH key ……
+                            </div>
+                            <p class="readmore"><a href="http://example.org/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/">阅读全文</a></p>
+                        </article>
+                    
+                        <article class="post">
+                            <header>
+                                <h1 class="post-title">
+                                    <a href="http://example.org/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="浅谈hugo搭建博客" >浅谈hugo搭建博客</a>
+                                </h1>
+                            </header>
+                            <date class="post-meta meta-date">
+                                2019年9月14日
+                            </date>
+                            
+                            <div class="post-content">
+                                浅谈hugo搭建博客 花了足足三个小时，来搞这个博客，累的要死，终于算是大致搞明白了。还有很多不太明白的地方，就写一篇博客和大家分享
+初试Hugo  Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+ 安装Hugo  前往官网下载Hugo。 解压Hugo，并将Hugo的解压目录引入环境变量的Path中。 通过hugo version命令测试是否引入成功。  建立一个站点，并添加默认主题  自定义一个空目录执行 hugo new site XXXXXXXX，X的位置可以用任意字符串替代。如果是要搭建在Github Page上。给出推荐的格式：&lt;你的github名&gt;.github.io-creator。 进入生成的目录 cd &lt;你的github名&gt;.github.io-creator。 将目录初始化为一个Git本地仓库git init。 下载默认的主题git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke。 将选择默认主题追加到配置文件echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml。  添加一些内容 通过hugo new posts/my-first-post.md生成你自己的第一篇文章。不推荐这样做，测试后发现会直接在主目录下新生成posts文件夹，而不是生成在content目录下。
+启动Hugo服务器 启动服务器：hugo server。通过本地http://localhost:1313/查看本地站点。 参数 -D可以显示草稿文章
+构建静态页面 在根目录通过huge生成public文件夹。然后创建.gitignore文件写入/public/，用于忽略public文件夹。
+建立Public本地仓库  在public文件夹内通过git init建立本地仓库。 添加并提交本地仓库。   对接Github 在github上创建新的云端仓库，仓库名为 &lt;你的github名&gt;.github.io，然后将本地仓库同步到云端仓库。
+部署到Github Page 通过setting页设置Page。
+感言 方方老师说的没错，主题是无穷无尽的。换了好几个主题，都觉得不好看，有的设置文档又写的太烂，也可能是我水平太次了。还是老老实实的在掘金写文章吧。 PS：如果有喜欢换主题的朋友。可以下载主题之前先提交一下，要是主题换的不好，或者代码乱了，可以直接回滚版本，非常方便。……
+                            </div>
+                            <p class="readmore"><a href="http://example.org/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">阅读全文</a></p>
+                        </article>
+                    
+                    
+
+
+
+
+
+                </div>
+            </div>
+
+            <div id="secondary">
+    <section class="widget">
+        <form id="search" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="http://example.org/">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="http://example.org/posts/git%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%80%BB%E7%BB%93/" title="Git学习与总结">Git学习与总结</a>
+    </li>
+    
+    <li>
+        <a href="http://example.org/posts/%E6%B5%85%E8%B0%88hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="浅谈hugo搭建博客">浅谈hugo搭建博客</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">分类</h3>
+<ul class="widget-list">
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title">标签</h3>
+<div class="tagcloud">
+    
+</div>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="https://juejin.im/timeline" title="掘金">掘金</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="https://wangdoc.com/javascript/" title="JavaScript 教程">JavaScript 教程</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="http://example.org/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <div class="container">
+        &copy; 2019 <a href="http://example.org/">xihaoshangdi的博客 By xihaoshangdi</a>.
+        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
+        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/rujews/maupassant-hugo" target="_blank">maupassant</a>.
+        
+    </div>
+</footer>
+
+
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src="/js/totop.js?v=0.0.0" async=""></script>
+
+
+
+
+
+
+
+</body>
+</html>
